@@ -6,7 +6,6 @@
   font-size: 3rem;
   font-weight: 600;
   margin: 0.5rem 0rem;
-  
 }
 .landingContent {
   font-size: 1.2rem;
@@ -16,7 +15,7 @@
   line-height: 1.5;
 }
 
-.landingContent span{
+.landingContent span {
   font-weight: bold;
 }
 
@@ -24,10 +23,8 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-
   gap: 2rem;
   justify-content: center;
-
   margin-left: 8rem;
 }
 .heading1 {
@@ -36,31 +33,30 @@
   margin-top: 0.8rem;
   color: rgb(255, 255, 255);
   font-size: 50px;
-
 }
 
 .image_container img {
-width: 60rem;
-height: 38rem;
+  width: 60rem;
+  height: 38rem;
 }
 
-.footer{
+.footer {
   margin-bottom: 2rem;
   color: black;
   font-size: 1rem;
 }
 
-.glass{
-  padding:  8px;
+.glass {
+  padding: 8px;
   background: linear-gradient(
-    to left ,
+    to left,
     transparent 20%,
     rgba(152, 250, 166, 0.75) 50%
   );
   color: black;
 }
 
-.company-name{
+.company-name {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
@@ -71,11 +67,62 @@ height: 38rem;
   height: 8rem;
 }
 
-.footer-glass{
-  padding:  12px;
+.footer-glass {
+  padding: 12px;
   background: linear-gradient(
-    to bottom ,
+    to bottom,
     transparent 20%,
     rgba(152, 250, 166, 0.75) 50%
   );
+}
+
+@media screen and (max-width: 912px) {
+  .container {
+    width: 90%;
+  }
+  .column__Flex {
+    flex-direction: column;
+  }
+  .landingPage {
+    height: fit-content;
+  }
+  .LandingRightContent {
+    margin-left: 2rem;
+  }
+  .landingContent {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .heading {
+    font-size: 2rem;
+    margin: 0rem 0;
+  }
+  .logo-container {
+    margin: 0rem 0;
+  }
+  .landingPage {
+    height: fit-content;
+  }
+  .footer {
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .heading {
+    font-size: 1.7rem;
+    margin: 0rem 0;
+  }
+}
+
+@media screen and (max-width: 292px) {
+  .heading {
+    font-size: 1.3rem;
+    margin: 0rem 0;
+  }
+  .landingContent {
+    width: 100%;
+  }
 }
