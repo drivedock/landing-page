@@ -5,9 +5,9 @@ import Qoutes from "../assets/quotes.png";
 
 function LandingPage() {
   return (
-    <section className="landingPage display__Flex alignCenter">
+    <section className="landingPage display__FlexColumn alignCenter">
       <article className="container display__Flex alignCenter justifyCenter">
-        <figure className="flex30">
+        <figure className="flex30 image_container">
           <img
             style={{
               width: "100%",
@@ -20,40 +20,28 @@ function LandingPage() {
         </figure>
 
         <div className="flex50 LandingRightContent">
-          <figure>
-            <img
-              style={{
-                marginLeft: "2.5rem",
-                marginBottom: "-1rem",
-                width: "5rem",
-              }}
-              src={Qoutes}
-              alt=""
-            />
-          </figure>
-          <figure>
-            <img
-              style={{ width: "10%" }}
-              src={ProductLogo}
-              alt="Product Logo"
-            />
-          </figure>
-          <div className="display__Flex">
-            <h2 className="heading heading1">DriveDock</h2>{" "}
-            <p style={{ fontWeight: 700 }}>Groups</p>
-          </div>
-          <h1 className="heading">Presentig Ourseleves</h1>
+         <div className=" logo-container display__flexColumn">
+              <img
+                style={{ width: "20%" }}
+                src={ProductLogo}
+                alt="Product Logo"
+              />
+              <h2 className="company-name">DriveDock Groups</h2>{" "}
+         </div>
+          <h1 className="heading"> <span className="glass">Presentig</span> Ourseleves</h1>
           <p className="landingContent">
-            Education in a practicel way we always wanted
+            Education in a practicel way we always wanted!
           </p>
           <p className="landingContent">
-            We're going to be going live on this website soon, so mark your
+            We're going to be going <span className="glass">live</span>on this website soon, so mark your
             calendars and get ready to join us for an unforgettable online
             experience!
           </p>
-          <small style={{ color: "gray" }}>cc @ Drivedock groups 2023</small>
         </div>
       </article>
+      <footer className="footer">
+      <small className="footer-glass">&copy; DriveDock Groups @ 2023</small>
+      </footer>
     </section>
   );
 }

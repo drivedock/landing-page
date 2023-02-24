@@ -6,17 +6,29 @@
   font-size: 3rem;
   font-weight: 600;
   margin: 0.5rem 0rem;
+  
 }
 .landingContent {
   font-size: 1.2rem;
   color: rgb(91, 90, 90);
   margin: 1rem 0;
   width: 80%;
-  line-height: 1.2;
+  line-height: 1.5;
 }
+
+.landingContent span{
+  font-weight: bold;
+}
+
 .LandingRightContent {
-  margin-top: -10rem;
-  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  gap: 2rem;
+  justify-content: center;
+
+  margin-left: 8rem;
 }
 .heading1 {
   font-size: 02rem;
@@ -24,6 +36,46 @@
   margin-top: 0.8rem;
   color: rgb(255, 255, 255);
   font-size: 50px;
-  text-shadow: -1px 1px 0 rgb(54, 166, 68), 1px 1px 0 rgb(54, 166, 68),
-    1px -1px 0 rgb(54, 166, 68), -1px -1px 0 #000;
+
+}
+
+.image_container img {
+width: 60rem;
+height: 38rem;
+}
+
+.footer{
+  margin-bottom: 2rem;
+  color: black;
+  font-size: 1rem;
+}
+
+.glass{
+  padding:  8px;
+  background: linear-gradient(
+    to left ,
+    transparent 20%,
+    rgba(152, 250, 166, 0.75) 50%
+  );
+  color: black;
+}
+
+.company-name{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.logo-container {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 8rem;
+}
+
+.footer-glass{
+  padding:  12px;
+  background: linear-gradient(
+    to bottom ,
+    transparent 20%,
+    rgba(152, 250, 166, 0.75) 50%
+  );
 }

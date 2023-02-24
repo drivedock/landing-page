@@ -147,6 +147,12 @@ a {
 .display__Flex {
   display: flex;
 }
+
+.display__FlexColumn{
+  display: flex;
+  flex-direction: column;
+}
+
 .display__Flexwrap {
   flex-wrap: wrap;
 }
@@ -258,4 +264,9 @@ display__ .flex65 {
 }
 .height {
   height: 100vh;
+}
+
+
+p{
+  line-height: 1.5;
 }
