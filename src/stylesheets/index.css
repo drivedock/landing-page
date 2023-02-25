@@ -1,5 +1,5 @@
 .landingPage {
-  background-color: #f4f4f4;
+  background-color: white;
   height: 100vh;
 }
 .heading {
@@ -95,6 +95,16 @@
 }
 
 @media screen and (max-width: 542px) {
+  .responsive{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+    align-items: center;
+    padding: 1rem;
+    line-height: 1.5;
+    justify-content: center;
+    text-align: center;
+  }
   .heading {
     font-size: 2rem;
     margin: 0rem 0;
@@ -107,6 +117,10 @@
   }
   .footer {
     margin-top: 0.5rem;
+  }
+
+  .landingContent{
+    margin-left: 1.5rem;
   }
 }
 

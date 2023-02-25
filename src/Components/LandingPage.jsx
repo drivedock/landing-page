@@ -6,7 +6,7 @@ import Qoutes from "../assets/quotes.png";
 function LandingPage() {
   return (
     <section className="landingPage display__FlexColumn alignCenter">
-      <article className="container display__Flex alignCenter justifyCenter column__Flex">
+      <article className="container display__Flex alignCenter justifyCenter responsive column__Flex">
         <figure className="flex30 image_container">
           <img
             style={{
@@ -33,12 +33,11 @@ function LandingPage() {
             <span className="glass">Presentig</span> Ourseleves
           </h1>
           <p className="landingContent">
-            Education in a practicel way we always wanted!
+          Education in way we always thrive for - <strong>Practical</strong>
           </p>
           <p className="landingContent">
-            We're going to be going <span className="glass">live</span>on this
-            website soon, so mark your calendars and get ready to join us for an
-            unforgettable online experience!
+            We're going <span className="glass">live</span>on this
+            website soon, Keep an eye out for an incredible online experience!
           </p>
         </div>
       </article>
