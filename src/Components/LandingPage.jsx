@@ -30,7 +30,7 @@ function LandingPage() {
           </div>
           <h1 className="heading">
             {" "}
-            <span className="glass">Presentig</span> Ourseleves
+            <span className="glass">Presenting</span> Ourseleves
           </h1>
           <p className="landingContent">
           Education in way we always thrive for - <strong>Practical</strong>
